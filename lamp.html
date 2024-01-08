@@ -15,7 +15,7 @@
     </div>
     <form
       oninput="
-      body.setAttribute('style', `background-color: rgba(255, 105, 180, ${(10-slider.value)/10});`);
+      body.setAttribute('style', `background-color: rgba(0, 0, 0, ${(10-slider.value)/10});`);
     console.log(slider.value);
       let rays=document.querySelectorAll('.ray');
       for(i=0;i<rays.length;i++){rays[i].style.background=`rgba(255,255,0,${(slider.value-i)/5})`}"
