@@ -62,3 +62,11 @@ input {
 .icon>img:hover {
     cursor: pointer;
 }
+
+a {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: 100%;
+    text-align: left;
+}
