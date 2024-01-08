@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Controlled Broghtness in a Lamp</title>
+    <link rel="stylesheet" href="lamp.css" />
+  </head>
+  <body>
+    <div class="lamp-wrapper">
+      <div class="lamp-rope"></div>
+      <div class="lamp">
+        <div class="lamp-oval"></div>
+      </div>
+    </div>
+    <form
+      oninput="
+      body.setAttribute('style', `background-color: rgba(255, 105, 180, ${(10-slider.value)/10});`);
+    console.log(slider.value);
+      let rays=document.querySelectorAll('.ray');
+      for(i=0;i<rays.length;i++){rays[i].style.background=`rgba(255,255,0,${(slider.value-i)/5})`}"
+    >
+      <div class="icon sun">
+        <div class="ray"></div>
+        <div class="ray"></div>
+        <div class="ray"></div>
+        <div class="ray"></div>
+        <div class="ray"></div>
+        <div class="ray"></div>
+        <div class="ray"></div>
+        <div class="ray"></div>
+      </div>
+      <input type="range" id="slider" value="0" min="0" max="10" />
+    </form>
+  </body>
+</html>

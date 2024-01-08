@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(255, 105, 180);
+    /* opacity: ; */
+}
+
+.lamp-rope {
+    position: relative;
+    margin: auto;
+    height: 10rem;
+    width: 5px;
+    border: none;
+    top: -10px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 65%, rgba(255, 240, 0, 1) 95%);
+}
+
+.lamp {
+    position: relative;
+    top: -10px;
+    margin: auto;
+    /* border: 2px solid black; */
+    border-bottom: none;
+    height: 5rem;
+    width: 10rem;
+    background: rgb(255, 240, 0);
+    background: radial-gradient(circle, rgba(255, 240, 0, 1) 1%, rgba(0, 0, 0, 0.8) 90%);
+    border-radius: 5rem 5rem 0 0;
+}
+
+.lamp-oval {
+    position: relative;
+    top: 4.25rem;
+    margin: auto;
+    height: 1.5rem;
+    width: 10rem;
+    /* background-color: #555; */
+    border-radius: 50%;
+    background: rgb(255, 230, 0);
+    background: linear-gradient(0deg, rgba(255, 230, 0, 1) 20%, rgba(255, 255, 255, 1) 95%);
+
+}
+
+.ray:nth-of-type(1) {
+    margin: auto;
+    margin-top: 20px;
+    height: 1.5rem;
+    width: 15rem;
+    background: rgb(255, 255, 0);
+    /* border-radius: 3rem 3rem 0 0; */
+    border-radius: 50% / 100% 100% 0 0;
+}
+
+.ray:nth-of-type(2) {
+    margin: auto;
+    height: 1.5rem;
+    width: 18rem;
+    background: rgb(255, 255, 0);
+    /* border-radius: 3rem 3rem 0 0; */
+    border-radius: 10% / 100% 100% 0 0;
+}
+.ray:nth-of-type(3) {
+    margin: auto;
+    height: 1.5rem;
+    width: 21rem;
+    background: rgb(255, 255, 0);
+    /* border-radius: 3rem 3rem 0 0; */
+    border-radius: 8% / 100% 100% 0 0;
+}
+.ray:nth-of-type(4) {
+    margin: auto;
+    height: 1.5rem;
+    width: 24rem;
+    background: rgb(255, 255, 0);
+    /* border-radius: 3rem 3rem 0 0; */
+    border-radius: 7% / 100% 100% 0 0;
+}
+.ray:nth-of-type(5) {
+    margin: auto;
+    height: 1.5rem;
+    width: 27rem;
+    background: rgb(255, 255, 0);
+    /* border-radius: 3rem 3rem 0 0; */
+    border-radius: 6% / 100% 100% 0 0;
+}
+.ray:nth-of-type(6) {
+    margin: auto;
+    height: 1.5rem;
+    width: 30rem;
+    background: rgb(255, 255, 0);
+    /* border-radius: 3rem 3rem 0 0; */
+    border-radius: 6% / 100% 100% 0 0;
+}
+.ray:nth-of-type(7) {
+    margin: auto;
+    height: 1.5rem;
+    width: 33rem;
+    background: rgb(255, 255, 0);
+    /* border-radius: 3rem 3rem 0 0; */
+    border-radius: 5% / 100% 100% 0 0;
+}
+.ray:nth-of-type(8) {
+    margin: auto;
+    height: 1.5rem;
+    width: 36rem;
+    background: rgb(255, 255, 0);
+    /* border-radius: 3rem 3rem 0 0; */
+    border-radius: 5% / 100% 100% 0 0;
+}
